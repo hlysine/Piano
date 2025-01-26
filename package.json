@@ -1,16 +1,16 @@
 {
 	"name": "@hlysine/piano",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Web Audio instrument using Salamander Grand Piano samples",
 	"repository": {
 	  "url": "https://github.com/tambien/Piano"
 	},
-	"browser": "build/Piano.js",
-	"main": "build/esm/Piano.js",
-	"module": "build/esm/Piano.js",
+	"browser": "build/index.js",
+	"main": "build/index.js",
+	"module": "build/index.js",
 	"type": "module",
-	"unpkg": "build/Piano.js",
-	"types": "build/esm/Piano.d.ts",
+	"unpkg": "build/index.js",
+	"types": "build/index.d.ts",
 	"scripts": {
 		"build": "tsc",
 		"prepare": "npm run build",
