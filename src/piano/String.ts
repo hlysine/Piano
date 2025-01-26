@@ -46,11 +46,11 @@ export class PianoString extends ToneAudioNode {
 		})
 	}
 
-	triggerAttack(note: string, time: number, velocity: number): void {
+	triggerAttack(note: string | number, time: number, velocity: number): void {
 		this._sampler.triggerAttack(note, time, velocity)
 	}
 
-	triggerRelease(note: string, time: number): void {
+	triggerRelease(note: string | number, time: number): void {
 		this._sampler.triggerRelease(note, time)
 	}
 }
