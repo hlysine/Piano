@@ -1,5 +1,5 @@
 {
-	"name": "@tonejs/piano",
+	"name": "@hlysine/piano",
 	"version": "0.2.0",
 	"description": "Web Audio instrument using Salamander Grand Piano samples",
 	"repository": {
